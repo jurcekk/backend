@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "dry_ages",
+  "info": {
+    "singularName": "dry-age",
+    "pluralName": "dry-ages",
+    "displayName": "dry-age"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "firstParagraph": {
+      "type": "text"
+    },
+    "secondParagraph": {
+      "type": "text"
+    },
+    "button1": {
+      "type": "string"
+    },
+    "button2": {
+      "type": "string"
+    },
+    "meatPictures": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

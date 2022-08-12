@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "handwerks",
+  "info": {
+    "singularName": "handwerk",
+    "pluralName": "handwerks",
+    "displayName": "Handwerk"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "firstParagraph": {
+      "type": "text"
+    },
+    "secondParagraph": {
+      "type": "text"
+    },
+    "thirdParagraph": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

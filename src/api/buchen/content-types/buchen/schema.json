@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "buchens",
+  "info": {
+    "singularName": "buchen",
+    "pluralName": "buchens",
+    "displayName": "Buchen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "buchenImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "spices",
+  "info": {
+    "singularName": "spice",
+    "pluralName": "spices",
+    "displayName": "spice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "firstParagraph": {
+      "type": "text"
+    },
+    "secondParagraph": {
+      "type": "text"
+    },
+    "spicesImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

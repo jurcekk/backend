@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "fleisches",
+  "info": {
+    "singularName": "fleisch",
+    "pluralName": "fleisches",
+    "displayName": "fleisch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

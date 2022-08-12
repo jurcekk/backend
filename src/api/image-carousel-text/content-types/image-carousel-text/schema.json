@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "image_carousel_texts",
+  "info": {
+    "singularName": "image-carousel-text",
+    "pluralName": "image-carousel-texts",
+    "displayName": "Image-carousel-text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "textBody": {
+      "type": "text"
+    }
+  }
+}
